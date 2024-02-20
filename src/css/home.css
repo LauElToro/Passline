@@ -1,0 +1,33 @@
+.Principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.Principal input{
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Principal input::-webkit-input-placeholder {
+    text-align: center;
+    line-height: 100px;/* Centrado vertical */
+}
+
+.divDone{
+    width: 100%;
+    background: black;
+    border-radius: 20px 20px 0 0px;
+    height: 5vh;
+}
+.divDone2{
+    width: 100%;
+    background: black;
+    border-radius: 0 0 20px 20px;
+    height: 5vh;
+}
